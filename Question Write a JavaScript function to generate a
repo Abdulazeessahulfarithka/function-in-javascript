@@ -1,0 +1,57 @@
+Question Write a JavaScript function to generate an array between two integers of 1 step length.
+
+const readline = require("readline");
+
+const inp = readline.createInterface({
+  input: process.stdin
+});
+
+const userInput = [];
+
+inp.on("line", (data) => {
+  userInput.push(data);
+});
+
+inp.on("close", () => {
+  //start-here
+  //Your code goes here … replace the below line with your code logic 
+function range(a, b){
+arr=[]
+for(i=a; i<=b; i++){
+arr.push(i)
+} return arr
+}console.log(range(3, 7))
+});
+
+ouput:
+ [3, 4, 5, 6, 7 ]
+
+ 2Question Write a JavaScript function to generate an array between two integers of 1 step length.
+
+ onst readline = require("readline");
+
+const inp = readline.createInterface({
+  input: process.stdin
+});
+
+const userInput = [];
+
+inp.on("line", (data) => {
+  userInput.push(data);
+});
+
+inp.on("close", () => {
+  //start-here
+  //Your code goes here … replace the below line with your code logic 
+function range(a, b){
+arr=[]
+for(i=a; i<=b; i++){
+arr.push(i)
+} return arr
+}console.log(range(-4, 7))
+});
+
+OUTPUT
+[ -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7 ]
+
+
